@@ -14,8 +14,15 @@ h4{
     font-family: "Helvetica Neue", "Arial", "Meiryo", "Hiragino Sans", sans-serif;
     font-weight: bold;
 }
+
 body{
     font-family: "Helvetica Neue", "Arial", "Meiryo", "Hiragino Sans";
     font-weight: normal;
 }
 
+figure{
+    float: right;
+}
+figcaption{
+    text-align:	center;
+}
