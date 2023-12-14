@@ -48,3 +48,9 @@ header{
 nav{
    margin: 0 0 0 auto;
 }
+
+/* footer */
+#footer p{
+   color: #505050;
+   text-align: center;
+}
