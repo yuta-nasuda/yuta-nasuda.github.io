@@ -31,7 +31,7 @@ figcaption{
 }
 
 /* header */
-header {
+header{
     width: 100%;
     padding: 0px 4% 10px;
     background-color: #000000;
@@ -39,4 +39,7 @@ header {
     top: 0;
     display: flex;
     align-items: center;
+}
+nav{
+   margin: 0 0 0 auto;
 }
