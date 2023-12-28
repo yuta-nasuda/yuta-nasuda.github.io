@@ -1,2 +1,2 @@
 # yuta-nasuda.github.io
-My website.
+My personal website.
