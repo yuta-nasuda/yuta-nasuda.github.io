@@ -37,7 +37,7 @@ figcaption{
 /* header */
 header{
     width: 100%;
-    padding: -3pt 4% -3pt;
+    padding: -1ex 4% -1ex;
     background-color: #000000;
     position: fixed;
     top: 0;
