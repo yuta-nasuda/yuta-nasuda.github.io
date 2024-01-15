@@ -1,0 +1,41 @@
+<HTML>
+
+  <HEAD>
+    <TITLE>
+      Yuta Nasuda's Website | Lectures
+    </TITLE>
+    <link href="./styles/style.css" rel="stylesheet" />
+    <meta charset="utf-8">
+  </HEAD>
+
+    <header>
+      <h1>
+        <a href="/" style="text-decoration:none;color:#E0E0E0;">Yuta Nasuda's Website</a>
+      </h1>
+      
+      <nav class="pc-nav">
+        <ul style="list-style:none;display:flex;">
+            <li style="margin: 0 0 0 15px;"><a href=./index.html style="text-decoration:none;color:#E0E0E0;">ホーム</a></li>
+            <li style="margin: 0 0 0 15px;"><a href=./lectures.html style="text-decoration:none;color:#E0E0E0;">講義</a></li>
+　　　　　　　　<li style="margin: 0 0 0 15px;"><a href=research.html style="text-decoration:none;color:#E0E0E0;">研究</a></li>
+            <li style="margin: 0 0 0 15px;"><a href=./index_en.html style="text-decoration:none;color:#E0E0E0;">English page</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <br><br><br>
+
+    <BODY>
+      <H2 style="display:inline;">講義等</H2>&emsp;&emsp;&emsp;<A HREF=/#lectures>ホームに戻る</A>．
+
+      <H3>2022年度</H3>
+
+      <H3>2019年度–2021年度</H3>
+     
+    </BODY>
+
+    <footer id="footer">
+      <p>&copy; 2023 Yuta Nasuda</p>
+    </footer>
+
+</HTML>
