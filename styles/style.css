@@ -34,6 +34,13 @@ figcaption{
     text-align:	center;
 }
 
+.leftcol,.rightcol{
+   width: 50%;
+}
+.twocols{
+   display: flex;
+}
+
 /* header */
 header{
     width: 100%;
