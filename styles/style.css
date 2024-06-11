@@ -49,7 +49,7 @@ figcaption{
   width: 100%;
 }
 
-.ac_head:after {
+.ac_head:after{
   content: "";
   border-top: 1px solid black;
   border-left: 1px solid black;
@@ -73,14 +73,14 @@ figcaption{
   opacity: 0; /* 非表示時、0*/
 }
 
-.ac_body.is-open {
+.ac_body.is-open{
   padding: 20px;
   line-height: 1.5;
   opacity: 1;
   border: 1px solid lightblue;
 }
 
-.ac_head.is-open::after {
+.ac_head.is-open::after{
   transform: rotate(45deg) translateY(-10px);
 }
 
