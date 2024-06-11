@@ -41,6 +41,26 @@ figcaption{
    display: flex;
 }
 
+.ac_head{
+  position: relative;
+  text-align: left;
+  padding: 20px 30px 20px 20px;
+  border-radius: 8px 8px 0 0;
+  background: lightblue;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+}
+
+.ac_body{
+  position: relative;
+  border-radius: 0 0 8px 8px;
+  background: #fff;
+  color: black;
+  border: 1px solid lightblue;
+  padding: 20px;
+}
+
 /* header */
 header{
     width: 100%;
