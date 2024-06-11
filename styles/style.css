@@ -52,6 +52,19 @@ figcaption{
   width: 100%;
 }
 
+.ac_head:after {
+  content: "";
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  transform: rotate(-135deg) translateY(9px);
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+
 .ac_body{
   position: relative;
   border-radius: 0 0 8px 8px;
