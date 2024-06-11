@@ -84,16 +84,6 @@ figcaption{
   transform: rotate(45deg) translateY(-10px);
 }
 
-.qa__block {
-  display: flex;
-  flex-direction: column;
-  min-width: 200px;
-}
-
-.qa__item {
-  display: inline-block;
-}
-
 /* header */
 header{
     width: 100%;
