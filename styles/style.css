@@ -52,7 +52,11 @@ figcaption{
   opacity: 0; /* 非表示時、0*/
 }
 
-.ac_body.is-open{}
+.ac_body.is-open{
+  line-height: 1.5;
+  opacity: 1;
+  border: 1px solid lightblue;
+}
 
 .ac_head.is-open::after{
   // transform: rotate(45deg) translateY(-10px);
