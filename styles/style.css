@@ -46,16 +46,13 @@ figcaption{
 .ac_head:after{}
 
 .ac_body{
-  // border: transparent; /*borderを非表示の状態にする*/ 
-  // padding: 0 20px; /*上下のpaddingを0に書き換える*/
   line-height: 0; /* 非表示時、0*/
   opacity: 0; /* 非表示時、0*/
 }
 
 .ac_body.is-open{
-  line-height: 1;
+  // line-height: 1;
   opacity: 1;
-  // border: 10px solid lightblue;
 }
 
 .ac_head.is-open::after{
