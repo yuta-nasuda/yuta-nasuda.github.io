@@ -46,25 +46,16 @@ figcaption{
 .ac_head:after{}
 
 .ac_body{
-  position: relative;
-  border-radius: 0 0 8px 8px;
-  background: #fff;
-  color: black;
   border: transparent; /*borderを非表示の状態にする*/ 
   padding: 0 20px; /*上下のpaddingを0に書き換える*/
   line-height: 0; /* 非表示時、0*/
   opacity: 0; /* 非表示時、0*/
 }
 
-.ac_body.is-open{
-  padding: 20px;
-  line-height: 1.5;
-  opacity: 1;
-  border: 1px solid lightblue;
-}
+.ac_body.is-open{}
 
 .ac_head.is-open::after{
-  transform: rotate(45deg) translateY(-10px);
+  // transform: rotate(45deg) translateY(-10px);
 }
 
 /* header */
