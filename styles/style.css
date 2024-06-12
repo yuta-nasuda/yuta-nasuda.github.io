@@ -55,7 +55,7 @@ figcaption{
 .ac_body.is-open{
   line-height: 1.5;
   opacity: 1;
-  border: 10px solid lightblue;
+  // border: 10px solid lightblue;
 }
 
 .ac_head.is-open::after{
