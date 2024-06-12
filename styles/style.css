@@ -42,7 +42,7 @@ figcaption{
 }
 
 .ac_head{
-  position: relative;
+  // position: relative;
   text-align: left;
   padding: 20px 30px 20px 20px;
   cursor: pointer;
