@@ -1,106 +1,61 @@
+<HTML>
 
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport"
-      content="width=device-width, initial-scale=1">
-<title>研究キーワード</title>
+  <HEAD>
+    <TITLE>
+      Yuta Nasuda's Website | 研究紹介
+    </TITLE>
+    <link href="./styles/style.css" rel="stylesheet" />
+    <meta charset="utf-8">
+ 
+    <style>
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+       gap: 18px 22px;
+      }
 
-<style>
-* {
-  box-sizing: border-box;
-}
+      .tag {
+       display: inline-block;
+       padding: 10px 20px;
+       border: 2px solid #dedede;
+       border-radius: 999px;
+       background: white;
+       line-height: 1.25;
+       white-space: nowrap;
+      }
+    </style>
+  </HEAD>
 
-body {
-  margin: 0;
-  min-height: 100vh;
-  background: #f8f7f4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family:
-    "Noto Sans JP", "Helvetica Neue",
-    Arial, sans-serif;
-  color: #303030;
-}
+  <header>
+    <h1>
+      <a href="/" style="text-decoration:none;color:#E0E0E0;">Yuta Nasuda's Website</a>
+    </h1>
+      
+    <nav class="pc-nav">
+	<ul style="list-style:none;display:flex;">
+	  <li style="margin: 0 0 0 15px;"><a href=./index.html style="text-decoration:none;color:#E0E0E0;">ホーム</a></li>
+	  <li style="margin: 0 0 0 15px;"><a href=research.html style="text-decoration:none;color:#E0E0E0;">研究</a></li>
+	  <li style="margin: 0 0 0 15px;"><a href=./lectures.html style="text-decoration:none;color:#E0E0E0;">講義</a></li>
+	  <li style="margin: 0 0 0 15px;"><a href=./index_en.html style="text-decoration:none;color:#E0E0E0;">English page</a></li>
+        </ul>
+      </nav>
+    </header>
 
-.card {
-  width: min(82%, 960px);
-  padding: 60px;
-  background: #fff;
-  border: 2px solid #dedede;
-  border-radius: 36px;
-  box-shadow: 0 5px 12px rgba(0,0,0,.05);
-}
+    <br><br>
 
-h1 {
-  margin: 0 0 36px;
-  font-size: clamp(30px, 5.5vw, 64px);
-  font-weight: 700;
-  letter-spacing: .02em;
-}
+    <BODY>
+      <H2>研究紹介</H2>
 
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 18px 22px;
-}
+      <H3>研究テーマ</H3>
+      <div class="tags">
+        <span class="tag">可解な量子力学模型</span>
+        <span class="tag">直交多項式</span>
+        <span class="tag">特殊函数</span>
+        <span class="tag">超対称量子力学</span>
+        <span class="tag">固有値問題</span>
+        <span class="tag">微分方程式</span>
+        <span class="tag">可積分系</span>
+      </div>
+    </BODY>
 
-.tag {
-  display: inline-block;
-  padding: 20px 36px;
-  border: 2px solid #dedede;
-  border-radius: 999px;
-  background: white;
-  font-size: clamp(16px, 3.5vw, 40px);
-  line-height: 1.25;
-  white-space: nowrap;
-}
-
-@media (max-width: 600px) {
-  .card {
-    width: 92%;
-    padding: 24px 20px;
-    border-radius: 24px;
-  }
-
-  h1 {
-    margin-bottom: 24px;
-  }
-
-  .tags {
-    gap: 10px;
-  }
-
-  .tag {
-    padding: 12px 16px;
-    font-size: clamp(13px, 3.3vw, 20px);
-  }
-}
-</style>
-</head>
-
-<body>
-  <main class="card">
-    <h1>研究キーワード</h1>
-
-    <div class="tags">
-      <span class="tag">格子ゲージ理論</span>
-      <span class="tag">格子QCD</span>
-      <span class="tag">有限温度QCD</span>
-      <span class="tag">トポロジー</span>
-      <span class="tag">カイラル対称性</span>
-      <span class="tag">軸性U(1)対称性</span>
-      <span class="tag">相構造</span>
-      <span class="tag">機械学習</span>
-      <span class="tag">計算物理</span>
-      <span class="tag">量子計算</span>
-      <span class="tag">高性能計算</span>
-      <span class="tag">逆問題</span>
-      <span class="tag">スパースモデリング</span>
-      <span class="tag">JuliaQCD</span>
-    </div>
-  </main>
-</body>
-</html>
+  </HTML>
